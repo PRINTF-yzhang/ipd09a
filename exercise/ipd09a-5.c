@@ -22,4 +22,12 @@ unsigned long fib_iter(int n)
 }
 
 int main(void)
-{ }
+{
+    int input;
+    unsigned long bigVal = ULONG_MAX;
+    while ((scanf("%d", &input) == 1) && ( fib_iter(input) < ULONG_MAX)){
+
+            printf("fib(%d) = %lu\n", input, fib_iter(input));
+
+    }
+}
