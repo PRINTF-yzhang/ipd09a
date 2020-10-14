@@ -29,10 +29,10 @@ void test_tri(void)
 
 void test_tri2(void)
 {
-    CHECK_ULONG( tri(5), 15 );
-    CHECK_ULONG( tri(3), 6 );
-    CHECK_ULONG( tri(2), 3 );
-    CHECK_ULONG( tri(0), 0 );
+    CHECK_ULONG( tri2(5), 15 );
+    CHECK_ULONG( tri2(3), 6 );
+    CHECK_ULONG( tri2(2), 3 );
+    CHECK_ULONG( tri2(0), 0 );
 }
 
 
